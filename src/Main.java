@@ -38,9 +38,8 @@ public class Main
             canBuyAnything = true;
         }
 
-        if(!canBuyAnything) {
-            System.out.println("Pas assez de moyens");
-        }
+        System.out.println(canBuyAnything ? "Choisir le boisson" : "Pas assez de moyens"); // operateur ternaire
+
 
     }
 }

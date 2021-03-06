@@ -2,7 +2,7 @@ public class Main
 {
     public static void main(String[] args)
     {
-        int moneyAmount = 1;
+        int moneyAmount = 2; // valeur du portmonnaie
 
         int cappucinoPrice = 4;
         int lattePrice = 3;
